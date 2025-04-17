@@ -103,7 +103,7 @@ CORS_ALLOW_HEADERS = [
 ]
 
 # Allow all hosts
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost', 'glorious-capybara-r7w7jq49jqf9g6-8000.app.github.dev']
 
 
 # Password validation
