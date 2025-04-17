@@ -6,6 +6,9 @@ class User(models.Model):
     email = models.EmailField(unique=True)
     password = models.CharField(max_length=100)
 
+    class Meta:
+        db_table = "users"
+
 class Team(models.Model):
     _id = models.ObjectIdField()
     name = models.CharField(max_length=100)
