@@ -1,0 +1,65 @@
+body {
+  background-color: #f8f9fa; /* Light gray background */
+  color: #343a40; /* Dark gray text */
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #007bff; /* Bootstrap primary blue */
+}
+
+.navbar-brand {
+  color: #ffffff !important; /* White text for brand */
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #ffffff !important; /* White text for links */
+}
+
+.nav-link:hover {
+  color: #ffc107 !important; /* Yellow on hover */
+}
+
+.table {
+  background-color: #ffffff; /* White table background */
+  border: 1px solid #dee2e6; /* Light gray border */
+}
+
+.table th {
+  background-color: #007bff; /* Bootstrap primary blue */
+  color: #ffffff; /* White text */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f2f2f2; /* Light gray for striped rows */
+}
+
+.btn {
+  background-color: #007bff; /* Bootstrap primary blue */
+  color: #ffffff;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #007bff; /* Bootstrap primary blue */
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 10px;
+}
